@@ -1,0 +1,14 @@
+{
+    "name": "sandevportfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "home.html",
+    "scripts": {
+        "test": "echo \"Error: no test application\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Sandev",
+    "License": "MIT",
+    "homepage": "https://irsaniskandar.github.io",
+    "dependencies": {}
+}
