@@ -1968,9 +1968,9 @@ content
   margin-bottom: 15px;
 }
 .art-timeline .art-timeline-content .art-card-header .art-right-side .art-date {
-  color: #646466;
+  color: #ffffff;
   margin-left: auto;
-  background: #20202a;
+  background: #858585;
   padding: 5px 15px;
   border-radius: 15px;
   -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
