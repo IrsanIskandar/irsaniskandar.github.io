@@ -157,7 +157,7 @@ $(function() {
 
   //bar.animate(0.7);
 
-  var bar = new ProgressBar.Line(lineprog1, {
+  var barSkill1 = new ProgressBar.Line(lineprog1, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -172,9 +172,9 @@ $(function() {
     }
   });
 
-  bar.animate(.9);
+  barSkill1.animate(.9);
 
-  var bar = new ProgressBar.Line(lineprog2, {
+  var barSkill2 = new ProgressBar.Line(lineprog2, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -189,9 +189,9 @@ $(function() {
     }
   });
 
-  bar.animate(.95);
+  barSkill2.animate(.75);
 
-  var bar = new ProgressBar.Line(lineprog3, {
+  var barSkill3 = new ProgressBar.Line(lineprog3, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -206,9 +206,9 @@ $(function() {
     }
   });
 
-  bar.animate(.7);
+  barSkill3.animate(.7);
 
-  var bar = new ProgressBar.Line(lineprog4, {
+  var barSkill4 = new ProgressBar.Line(lineprog4, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -223,9 +223,9 @@ $(function() {
     }
   });
 
-  bar.animate(.45);
+  barSkill4.animate(.45);
 
-  var bar = new ProgressBar.Line(lineprog5, {
+  var barSkill5 = new ProgressBar.Line(lineprog5, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -240,9 +240,9 @@ $(function() {
     }
   });
 
-  bar.animate(.85);
+  barSkill5.animate(.85);
 
-  var bar = new ProgressBar.Line(lineprog6, {
+  var barSkill6 = new ProgressBar.Line(lineprog6, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -257,9 +257,9 @@ $(function() {
     }
   });
 
-  bar.animate(.65);
+  barSkill6.animate(.65);
 
-  var bar = new ProgressBar.Line(lineprog7, {
+  var barSkill7 = new ProgressBar.Line(lineprog7, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -274,9 +274,9 @@ $(function() {
     }
   });
 
-  bar.animate(.85);
+  barSkill7.animate(.85);
 
-  var bar = new ProgressBar.Line(lineprog8, {
+  var barSkill8 = new ProgressBar.Line(lineprog8, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -291,9 +291,9 @@ $(function() {
     }
   });
 
-  bar.animate(.75);
+  barSkill8.animate(.75);
 
-  var bar = new ProgressBar.Line(lineprog9, {
+  var barSkill9 = new ProgressBar.Line(lineprog9, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -308,9 +308,9 @@ $(function() {
     }
   });
 
-  bar.animate(.75);
+  barSkill9.animate(.75);
 
-  var bar = new ProgressBar.Line(lineprog10, {
+  var barSkill10 = new ProgressBar.Line(lineprog10, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -325,9 +325,9 @@ $(function() {
     }
   });
 
-  bar.animate(.45);
+  barSkill10.animate(.45);
 
-  var bar = new ProgressBar.Line(lineprog11, {
+  var barSkill11 = new ProgressBar.Line(lineprog11, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -342,9 +342,9 @@ $(function() {
     }
   });
 
-  bar.animate(.55);
+  barSkill11.animate(.55);
 
-  var bar = new ProgressBar.Line(lineprog12, {
+  var barSkill12 = new ProgressBar.Line(lineprog12, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -359,7 +359,7 @@ $(function() {
     }
   });
 
-  bar.animate(.45);
+  barSkill12.animate(.45);
 
   // Contact form
   $('.art-input').keyup(function() {
@@ -373,7 +373,7 @@ $(function() {
   $("#form").submit(function() {
     $.ajax({
       type: "POST",
-      url: "mail.php",
+      url: "/components/mail.php",
       data: $(this).serialize()
     }).done(function() {
 
