@@ -2018,10 +2018,10 @@ content
   border-left: solid 50px #20202a;
 }
 .art-form-field textarea.art-active {
-  border-color: #FFC107;
+  border-color: #d344cc;
 }
 .art-form-field textarea:focus {
-  border-color: #FFC107;
+  border-color: #d344cc;
 }
 
 .art-contact-form .art-input:focus {
@@ -2030,7 +2030,7 @@ content
 
 .art-contact-form .art-input.art-active + label,
 .art-contact-form .art-input:focus + label {
-  background: #FFC107;
+  background: #d344cc;
   color: #20202a;
 }
 
